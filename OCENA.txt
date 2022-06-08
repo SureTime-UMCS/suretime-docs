@@ -1,1 +1,30 @@
-5
+Ocena: 5
+
+Project requirements for grade > 4
+ Osiągnięcie "glory of rest" (hateoas)
+ Wykorzystanie do projektowania i dokumentacji API narzędzia typu swagger.io lub alternatywnych (Postman może importować ze swaggera)
+ Bardziej złożona logika wykorzystująca wzorce projektowe ale nie wymuszane przez framework Spring
+ Poprawnie wykorzystać jeden ze starterów aplikacji SpringBoot’a
+
+Dla chętnych
+ Prosty front-end do konsumpcji endpointów Rest-owych
+ Wykorzystać JWT jwt.io
+ 
+Wykorzystane technologie 
+ swagger
+ glory of rest (hateoas)
+ gateway
+ JWT
+ caffeine cache
+ mongoDB
+ eureka
+ docker
+ react
+ tailwind
+
+Dobre praktyki
+ Wykorzystanie uuid - zasoby są rozpoznawane po uuid dzięki czemu nie ma możliwości odwołania się do zasobu nie posiadając id. Umożliwiają swobodną edycję zasobu,
+ który nie jest identyfikowany po żadnej z jego wartości.
+ Zastosowanie interfejsów i dziedziczenia w przypadku serwisów - umożliwia większą swobodę w przyszłych modyfikacjach kodu i nie zamyka aplikacja na rozwój
+ Podział struktury projektu na domain i application umożliwiający łatwiejsze nawigowanie po plikach i utrzymanie przejrzystości.
+ Wersjonowanie api za pomocą oznaczeń w url endpointu. Np. /api/v1/events
