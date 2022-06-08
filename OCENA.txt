@@ -1,6 +1,6 @@
 Ocena: 5
 
-Project requirements for grade > 4
+Spełnione wymagania na ocenę >4 :
  Osiągnięcie "glory of rest" (hateoas)
  Wykorzystanie do projektowania i dokumentacji API narzędzia typu swagger.io lub alternatywnych (Postman może importować ze swaggera)
  Bardziej złożona logika wykorzystująca wzorce projektowe ale nie wymuszane przez framework Spring
